@@ -14,10 +14,13 @@
 		61722893233B48DF0005198C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61722892233B48DF0005198C /* GradientView.swift */; };
 		61AA1523233B5DF7001A3C62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA1522233B5DF7001A3C62 /* Constants.swift */; };
 		61AA1525233B7CE4001A3C62 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA1524233B7CE4001A3C62 /* LoginVC.swift */; };
+		61AA1527233B7FB9001A3C62 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA1526233B7FB9001A3C62 /* CreateAccountVC.swift */; };
 		61C59B5C2339F69600D26EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C59B5B2339F69600D26EDB /* AppDelegate.swift */; };
 		61C59B612339F69600D26EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C59B5F2339F69600D26EDB /* Main.storyboard */; };
 		61C59B632339F69700D26EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C59B622339F69700D26EDB /* Assets.xcassets */; };
 		61C59B662339F69700D26EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C59B642339F69700D26EDB /* LaunchScreen.storyboard */; };
+		61EFC544233CB21F0053DE1E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EFC543233CB21F0053DE1E /* AuthService.swift */; };
+		61EFC546233CE4F40053DE1E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EFC545233CE4F40053DE1E /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +32,15 @@
 		61722892233B48DF0005198C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		61AA1522233B5DF7001A3C62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		61AA1524233B7CE4001A3C62 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		61AA1526233B7FB9001A3C62 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		61C59B582339F69600D26EDB /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C59B5B2339F69600D26EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61C59B602339F69600D26EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61C59B622339F69700D26EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61C59B652339F69700D26EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61C59B672339F69700D26EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EFC543233CB21F0053DE1E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		61EFC545233CE4F40053DE1E /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		70F2353DD12C01ACEC8ADBFE /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		86D893342CE8C651828EF3A8 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E175C41C40E07E8078CD348C /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +82,7 @@
 				61322770233A0BB4006BE871 /* ChatVC.swift */,
 				61322772233A0BC6006BE871 /* ChannelVC.swift */,
 				61AA1524233B7CE4001A3C62 /* LoginVC.swift */,
+				61AA1526233B7FB9001A3C62 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -84,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				61722892233B48DF0005198C /* GradientView.swift */,
+				61EFC545233CE4F40053DE1E /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +133,7 @@
 		61C59B5A2339F69600D26EDB /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				61EFC542233CB2070053DE1E /* Services */,
 				61AA1521233B5DDD001A3C62 /* Utilities */,
 				6132276F233A0B90006BE871 /* Model */,
 				6132276E233A0B8B006BE871 /* View */,
@@ -136,6 +145,14 @@
 				61C59B672339F69700D26EDB /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		61EFC542233CB2070053DE1E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61EFC543233CB21F0053DE1E /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		7CD0B8FAB4AFEC1CA96752DA /* Pods */ = {
@@ -267,7 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				61322773233A0BC6006BE871 /* ChannelVC.swift in Sources */,
+				61EFC546233CE4F40053DE1E /* RoundedButton.swift in Sources */,
 				61322771233A0BB4006BE871 /* ChatVC.swift in Sources */,
+				61AA1527233B7FB9001A3C62 /* CreateAccountVC.swift in Sources */,
+				61EFC544233CB21F0053DE1E /* AuthService.swift in Sources */,
 				61AA1525233B7CE4001A3C62 /* LoginVC.swift in Sources */,
 				61722893233B48DF0005198C /* GradientView.swift in Sources */,
 				61C59B5C2339F69600D26EDB /* AppDelegate.swift in Sources */,
